@@ -3,5 +3,5 @@ lime
 onion
 cilantro
 garlic 
-salt 
+ 
 tomato

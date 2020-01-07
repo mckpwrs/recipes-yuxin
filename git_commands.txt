@@ -27,3 +27,6 @@ git commit -m "message in commit" # add the commit comment in one line
 ## Connect to Github 
 git remote add origin https://github.com/yuxinxwang/recipes-yuxin.git # push the local repo to the remote origin on Github 
 git push -u origin master # push my local repo to master 
+
+## Pull stuff from Github 
+git pull 
