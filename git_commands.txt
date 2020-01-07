@@ -17,6 +17,8 @@ git commit --amend # change the previous comment in commit
 
 git log --oneline # to get commit history 
 git revert <hash> # revert the hash-ed action 
+git diff # show the difference that has not been staged 
 git diff --staged # to see what is staged 
 
 git reset HEAD <filename> # change <filename> from stage area 
+git commit -m "message in commit" # add the commit comment in one line 
