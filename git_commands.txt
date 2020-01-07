@@ -1,0 +1,16 @@
+  498  cd Google\ Drive/Job/Learning/GitAndR_20200106/
+  499  git config --global user.email "yuxinxwang@gmail.com"
+  500  git config --global user.name "Yuxin Wang"
+  501  git config --global core.autocrlf input
+  502  git config --global core.editor "nano"
+  505  cd git_examples/
+  514  touch guacomole.txt
+  515  nano guacomole.txt 
+ 
+  521  git init 
+ 
+  523  git status
+  524  git add guacomole.txt 
+  525  # git status
+  526  git commit
+  527  # git status
