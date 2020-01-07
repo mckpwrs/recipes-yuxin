@@ -5,3 +5,4 @@ salt
 water
 cumin 
 beef
+beef stock 
