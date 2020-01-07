@@ -1,16 +1,20 @@
-  498  cd Google\ Drive/Job/Learning/GitAndR_20200106/
-  499  git config --global user.email "yuxinxwang@gmail.com"
-  500  git config --global user.name "Yuxin Wang"
-  501  git config --global core.autocrlf input
-  502  git config --global core.editor "nano"
-  505  cd git_examples/
-  514  touch guacomole.txt
-  515  nano guacomole.txt 
+cd Google\ Drive/Job/Learning/GitAndR_20200106/
+git config --global user.email "yuxinxwang@gmail.com"
+git config --global user.name "Yuxin Wang"
+git config --global core.autocrlf input
+git config --global core.editor "nano"
+cd git_examples/
+touch guacomole.txt
+nano guacomole.txt 
  
-  521  git init 
+git init 
  
-  523  git status
-  524  git add guacomole.txt 
-  525  # git status
-  526  git commit
-  527  # git status
+git status
+git add <filename>
+git commit
+
+git commit --amend # change the previous comment in commit 
+
+git log --oneline # to get commit history 
+git revert <hash> # revert the hash-ed action 
+
