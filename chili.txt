@@ -3,3 +3,4 @@ beans
 chili powder
 salt
 water
+cumin 
